@@ -1,0 +1,112 @@
+# =========================
+# DATA
+# =========================
+
+data/
+dataset/
+datasets/
+
+storage/
+outputs/
+results/
+
+# =========================
+# CHECKPOINTS / WEIGHTS
+# =========================
+
+checkpoints/
+ckpt/
+weights/
+models/
+
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.safetensors
+*.npz
+*.npy
+
+# =========================
+# LOGS
+# =========================
+
+logs/
+runs/
+wandb/
+tensorboard/
+tb_logs/
+
+events.out.tfevents*
+
+# =========================
+# HUGGINGFACE / CACHE
+# =========================
+
+.cache/
+hf_cache/
+huggingface/
+transformers_cache/
+
+# =========================
+# PYTHON
+# =========================
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# ENV / VENV
+# =========================
+
+venv/
+.env
+.env.*
+.venv/
+
+# =========================
+# JUPYTER
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# IDE / EDITOR
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# CUDA / TORCH TEMP
+# =========================
+
+*.log
+*.tmp
+*.out
+
+# =========================
+# BUILD / DIST
+# =========================
+
+build/
+dist/
+*.egg-info/
+
+# =========================
+# MISC
+# =========================
+
+*.bak
+*.swp
+*.swo
