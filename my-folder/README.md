@@ -10,5 +10,4 @@
 | | Bronze | Silver | Gold |
 |---|---|---|---|
 | 폴더 | A-data | BtoY-data | Z-data |
-| 상태 | Solid | Liquid | Gas |
 | 데이터 | Raw Data | In Processing | Distributed / Consumed |
