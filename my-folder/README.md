@@ -9,6 +9,6 @@
 
 | | Bronze | Silver | Gold |
 |---|---|---|---|
-| 폴더 | S | L | G |
+| 폴더 | S-data | L-data | G-data |
 | 상태 | Solid | Liquid | Gas |
 | 데이터 | Raw Data | In Processing | Distributed / Consumed |
