@@ -1,0 +1,7 @@
+[submodule "vision/ijepa"]
+	path = vision/ijepa
+	url = https://github.com/facebookresearch/ijepa
+
+[submodule "vision/vjepa2"]
+	path = vision/vjepa2
+	url = https://github.com/facebookresearch/vjepa2
