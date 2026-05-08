@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import reportlab, markdown; print\\(''ok''\\)\")",
+      "Bash(pip install:*)",
+      "Bash(python make_aurora_pdf.py)",
+      "Bash(python -c \"import reportlab; print\\(reportlab.__version__\\)\")",
+      "Bash(where python:*)",
+      "Bash(python -m pip install reportlab)",
+      "Bash(python make_aurora_ko_pdf.py)",
+      "Bash(mv S S-data)",
+      "Bash(mv L L-data)",
+      "Bash(mv G G-data)",
+      "Bash(mv S-data A-data)",
+      "Bash(mv L-data BtoY-data)",
+      "Bash(mv G-data Z-data)",
+      "Bash(git clone:*)",
+      "WebFetch(domain:ai.meta.com)",
+      "Bash(python my-folder/A-data/make_vjepa_blog_pdf.py)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git rm:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(find /c/Discovery/Cosmo/dev/lab -name *.yaml -o -name *.yml)",
+      "Bash(git -C /c/Discovery/Cosmo/dev/lab log --oneline -10)",
+      "Bash(git -C /c/Discovery/Cosmo/dev/lab ls-files --stage vision/)",
+      "Bash(git -C /c/Discovery/Cosmo/dev/lab/vision/ijepa remote -v)",
+      "Bash(git -C /c/Discovery/Cosmo/dev/lab/vision/vjepa2 remote -v)",
+      "Bash(git -C /c/Discovery/Cosmo/dev/lab add .gitmodules)",
+      "Bash(git -C /c/Discovery/Cosmo/dev/lab status)",
+      "Bash(git -C:*)",
+      "Bash(python my-folder/BtoY-data/make_ijepa_ko_pdf.py)",
+      "Bash(python my-folder/BtoY-data/make_vjepa2_ko_pdf.py)"
+    ]
+  }
+}
