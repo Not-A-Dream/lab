@@ -5,3 +5,6 @@
 [submodule "vision/vjepa2"]
 	path = vision/vjepa2
 	url = https://github.com/facebookresearch/vjepa2
+[submodule "robotics/foundation/RLDX-1"]
+	path = robotics/foundation/RLDX-1
+	url = https://github.com/RLWRLD/RLDX-1.git
